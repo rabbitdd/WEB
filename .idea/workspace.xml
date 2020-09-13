@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdb1b0c5-6edc-4360-a93b-6f4d621c41dc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1gwstdY1dr7JoRPmtSCR2zPGaP2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/video_img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rabbit\PhpstormProjects\PIA1\video_img" />
+      <recent name="C:\Users\rabbit\PhpstormProjects\PIA1\js" />
+      <recent name="C:\Users\rabbit\PhpstormProjects\PIA1\css" />
+      <recent name="C:\Users\rabbit\PhpstormProjects\PIA1\html" />
+      <recent name="C:\Users\rabbit\PhpstormProjects\PIA1\php" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rabbit\PhpstormProjects\PIA1\video_img" />
+      <recent name="C:\Users\rabbit\PhpstormProjects\PIA1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Attach to Node.js/Chrome.Unnamed">
+    <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="9229" restartOnDisconnect="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="JS" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../../Program Files/nodejs/node" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/handler.php">
+      <CommandLine workingDirectory="$PROJECT_DIR$">
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="handler.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" nameIsGenerated="true" path="$PROJECT_DIR$/php/handler.php">
+      <CommandLine workingDirectory="$PROJECT_DIR$">
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.Unnamed" />
+      <item itemvalue="Node.js.JS" />
+      <item itemvalue="PHP Script.handler.php" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdb1b0c5-6edc-4360-a93b-6f4d621c41dc" name="Default Changelist" comment="" />
+      <created>1599037204675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599037204675</updated>
+      <workItem from="1599037205860" duration="10627000" />
+      <workItem from="1599124358470" duration="12119000" />
+      <workItem from="1599301334730" duration="12966000" />
+      <workItem from="1599468216708" duration="4000" />
+      <workItem from="1599472959988" duration="4520000" />
+      <workItem from="1599479904022" duration="17007000" />
+      <workItem from="1599499712984" duration="9748000" />
+      <workItem from="1599574975482" duration="14670000" />
+      <workItem from="1599671352216" duration="9200000" />
+      <workItem from="1599842881909" duration="7067000" />
+      <workItem from="1599924894602" duration="30000" />
+      <workItem from="1599924964164" duration="12000" />
+      <workItem from="1599925007346" duration="2744000" />
+      <workItem from="1600018912630" duration="9124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="0" key="#PHP" timestamp="1599046589359">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="349" y="0" key="#PHP/0.0.1280.680@0.0.1280.680" timestamp="1599046589359" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599588270669">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1599588270669" />
+    <state x="310" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599521717134">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="310" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1599521717134" />
+    <state x="421" y="45" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599575736181">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="45" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.680@0.0.1280.680" timestamp="1599575736181" />
+    <state x="509" y="90" key="EnvironmentVariablesDialog" timestamp="1599480783409">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="509" y="90" key="EnvironmentVariablesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599480783409" />
+    <state x="450" y="115" key="FileChooserDialogImpl" timestamp="1599575744678">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="115" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599575744678" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1599599427767">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599599427767" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1599599427766">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599599427766" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1599599427759">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599599427759" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1599599427767">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599599427767" />
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1599850206281">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1599850206281" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1599594559688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599594559688" />
+    <state x="358" y="148" key="jetbrains.nodejs.interpreters-dialog" timestamp="1599480761734">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="358" y="148" key="jetbrains.nodejs.interpreters-dialog/0.0.1280.680@0.0.1280.680" timestamp="1599480761734" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1599587591844">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1599587591844" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1599847217320">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1599847217320" />
+  </component>
+</project>
