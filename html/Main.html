@@ -6,19 +6,24 @@
     <title>PIA-1</title>
 
 </head>
-<body>
+<body background="../video_img/17520.jpg">
 <div class="intro">
     <div class="video">
-        <video class="video_content" src="../video_img/sky.mp4" muted autoplay loop></video>
+        <!--<video class="video_content" src="../video_img/sky.mp4" muted autoplay loop></video>-->
     </div>
     <div class="intro_content">
-        <table style="margin:auto; width:100%; height:100%; position: relative">
-            <form action="../php/handler.php" method="get" id="form_text" enctype="multipart/form-data" name="my">
-                <tr class="header">
-                    <th colspan="4">
-                        <p> Mishanin Nikita </p>
-                        <p> P3210 </p>
-                        <p> Variant: 2115</p>
+        <table id="mainTable">
+            <form action="" id="main_form" name="main_form">
+                <tr>
+                    <th class="header" colspan="4">
+                        <style type="text/css">
+                            p {
+                                color: black;
+                            }
+                        </style>
+                        <p> Mishanin Nikita <br>
+                            P3210 <br>
+                            Variant: 2115</p>
                     </th>
                 </tr>
                 <!--<tr class="header">
@@ -27,11 +32,12 @@
                 </tr>
                 -->
                 <tr>
-                    <td width="20%" style="padding-top: 150px">
-                        <h1 class="header">X</h1>
-                        <div class="table_x">
-                            <table class="table_x_y">
-                                <tr class="check">
+                    <div class="all">
+                    <td>
+                        <div class="data_x">
+                            <h1 class="header">X</h1>
+                            <table>
+                                <tr>
                                     <td><input type="checkbox" id="m4" name="check_box_group" class="checkbox"
                                                value="-4">
                                         <label for="m4">-4</label></td>
@@ -40,13 +46,13 @@
                                         <label for="m3">-3</label></td>
                                     <td><input type="checkbox" id="m2" name="check_box_group" class="checkbox"
                                                value="-2">
-                                        <lable for="m2">-2</lable>
+                                        <label for="m2">-2</label>
                                     </td>
                                 </tr>
-                                <tr class="check">
+                                <tr>
                                     <td><input type="checkbox" id="m1" name="check_box_group" class="checkbox"
                                                value="-1">
-                                        <lable for="m1">-1</lable>
+                                        <label for="m1">-1</label>
                                     </td>
                                     <td>
                                         <input type="checkbox" id="m0" name="check_box_group" class="checkbox"
@@ -75,63 +81,66 @@
                                                value="4">
                                         <label for="p4">4</label>
                                     </td>
-                                    <td></td>
                                 </tr>
                             </table>
                         </div>
-                    <td width="20%" align="center" style="padding-top: 150px">
-
-                        <h1 class="header">Y</h1>
-                        <input type="text" size="15%" name="y" placeholder="Enter Y value" class="text" id="y" required>
-                        <p align="center">
-                            <button type="submit" class="validateBtn" value="Validate" id="button"
-                                    style="border: 0; background: transparent; color: ghostwhite">
-                                <img src="../video_img/oblako.png" width="40" height="30" alt="submit"/>
-                                GO
-                            </button>
-                        </p>
-                        <p>
-                            <button type="submit" class="validateBtn" value="reset" id="reset"
-                                    style="border: 0; background: transparent; color: ghostwhite">
-                                <img src="../video_img/oblako.png" width="40" height="30" alt="submit"/>
-                                DROP
-                            </button>
-                        </p>
                     </td>
-                    <td width="20%" style="padding-top: 150px">
-                        <h1 class="header">R</h1>
-                        <div class="table_y">
-                        <table class="table_x_y">
-                            <tr>
-                                <td>
-                                    <input type="radio" id="r1" name="radio_group" checked="checked" value="1">
-                                    <label for="r1">1</label>
-                                </td>
-                                <td>
-                                    <input type="radio" id="r2" name="radio_group" value="1.5">
-                                    <label for="r2">1.5</label>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <input type="radio" id="r4" name="radio_group" value="2.5">
-                                    <label for="r4">2.5</label>
-                                </td>
-                                <td>
-                                    <input type="radio" id="r5" name="radio_group" value="3">
-                                    <label for="r5">3</label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="radio" id="r3" name="radio_group" value=2>
-                                    <label for="r3">2</label>
-                                </td>
-                            </tr>
-                        </table>
+                    <td>
+                        <div class="data_y">
+                            <h1 class="header">Y</h1>
+                            <lable for="y" class="header">-3<=Y<=3</lable>
+                            <input class="text" size="15%" name="y" required placeholder="Enter Y value" id="y">
+                            <p>
+                                <button type="submit" class="validateBtn" value="Validate" id="button"
+                                        style="border: 0; background: transparent; color: ghostwhite">
+                                    <img src="../video_img/oblako.png" width="40" height="30" alt="submit"/>
+                                    GO
+                                </button>
+                            </p>
+                            <p>
+                                <button type="submit" class="validateBtn" value="reset" id="reset"
+                                        style="border: 0; background: transparent; color: ghostwhite">
+                                    <img src="../video_img/oblako.png" width="40" height="30" alt="submit"/>
+                                    DROP
+                                </button>
+                            </p>
                         </div>
                     </td>
+                    <td>
+                        <div class="data_r">
+                            <h1 class="header">R</h1>
+                            <table class="table_x_y">
+                                <tr>
+                                    <td>
+                                        <input type="radio" id="r1" name="radio_group" checked="checked" value="1">
+                                        <label for="r1">1</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="r2" name="radio_group" value="1.5">
+                                        <label for="r2">1.5</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <input type="radio" id="r4" name="radio_group" value="2.5">
+                                        <label for="r4">2.5</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="r5" name="radio_group" value="3">
+                                        <label for="r5">3</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" id="r3" name="radio_group" value=2>
+                                        <label for="r3">2</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    </div>
 
                     <td width="40%" align="center" style="height: 500px">
                         <svg height="300" width="300" xmlns="http://www.w3.org/2000/svg" class="coordinate_plane">
@@ -159,15 +168,14 @@
                             <polygon fill="white" points="300,150 285,156 285,144" stroke="white"></polygon>
 
 
-                            <polygon class="triangle" fill="blue" fill-opacity="0.3" points="150,250 150,150 200,150"
+                            <polygon id="triangle" class="triangle" fill="blue" fill-opacity="0.3" points="150,250 150,150 200,150"
                                      stroke="blue"></polygon>
-                            <polygon class="rectangle" fill="blue" fill-opacity="0.3"
+                            <polygon id="rectangle" class="rectangle" fill="blue" fill-opacity="0.3"
                                      points="150,150 50,150 50,200 150,200"
                                      stroke="blue"></polygon>
-                            <path class="half_circle" d="M 50 150 A 150 150, 90, 0, 1, 150 50 L 150 150 Z" fill="blue"
+                            <path id="half_circle" class="half_circle" d="M 50 150 A 150 150, 90, 0, 1, 150 50 L 150 150 Z" fill="blue"
                                   fill-opacity="0.3"
                                   stroke="blue"></path>
-
                         </svg>
                     </td>
                 </tr>
@@ -187,7 +195,9 @@
                 </tr>
             </form>
         </table>
-
+        <script src="https://code.jquery.com/jquery-2.2.4.js"
+                integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+                crossorigin="anonymous"></script>
         <script src="../js/validation.js">
         </script>
     </div>

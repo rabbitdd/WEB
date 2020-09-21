@@ -3,11 +3,11 @@ session_start();
 date_default_timezone_set("Europe/Moscow");
 $current_time = date("H:m:s");
 $start = microtime(true);
-
 $x = ($_GET['check_box_group']);
 $y = ($_GET['y']);
 $r = ($_GET['radio_group']);
 $ans = "";
+
 if ($x > 0 && $y > 0) {
     $ans = "NO";
 } else if ($x <= 0 && $y >= 0) {
@@ -39,3 +39,4 @@ if (!isset($_SESSION['history'])) {
 
 array_push($_SESSION['history'], $res_table);
 include "table.php";
+
